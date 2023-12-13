@@ -1,0 +1,278 @@
+@media (max-width: 768px) {
+    #body_admin {
+        display: block;
+        height: auto;
+        background-color: beige;
+        padding: 10px;
+    }
+
+    #specialEmployeeList {
+        display: block;
+    }
+
+    .react-calendar__navigation button {
+        color: #6f48eb;
+        /* min-width: 50px; */
+        background: none;
+        font-size: 16px;
+        margin-top: 8px;
+        width: auto;
+    }
+
+    .react-calendar__navigation {
+        display: flex;
+    }
+
+    .employeeDetails {
+        text-align: center;
+    }
+
+    .logo-log h3 {
+        font-size: 25px;
+    }
+
+    .logo-log p {
+        font-size: 10px;
+        margin-left: 22px;
+    }
+
+    .logo-log p:before {
+        width: 6px;
+        height: 8px;
+        left: -8px;
+        top: 5px;
+    }
+
+    .logo-log p:after {
+        width: 6px;
+        height: 8px;
+        right: 16px;
+        top: 5px;
+    }
+
+    button {
+        width: auto;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    #items {
+        padding: 0%;
+        display: none;
+    }
+
+    #btn_items {
+        display: block;
+    }
+
+    #line {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    #list {
+        display: block;
+        width: auto;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-content {
+        text-align: center;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: auto;
+    }
+
+    .character-count {
+        position: relative;
+        left: 0px;
+        color: gray;
+    }
+
+    .error1 {
+        color: #f00;
+        font-size: 12px;
+        margin-top: 5px;
+        position: relative;
+        left: 0px;
+        width: auto;
+    }
+
+    #searching {
+        display: block;
+    }
+
+    #atcelement1 {
+        width: auto;
+    }
+
+    #statusBar {
+        font-size: 6px;
+    }
+
+    #header_psw {
+        width: auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1150px) {
+    #body_admin {
+        display: flex;
+        height: auto;
+        background-color: beige;
+        padding: 10px;
+    }
+
+    #specialEmployeeList {
+        display: block;
+    }
+
+    .react-calendar__navigation button {
+        color: #6f48eb;
+        /* min-width: 50px; */
+        background: none;
+        font-size: 16px;
+        margin-top: 8px;
+        width: auto;
+    }
+
+    .react-calendar__navigation {
+        display: flex;
+    }
+
+    .employeeDetails {
+        text-align: center;
+    }
+
+    .logo-log h3 {
+        font-size: 25px;
+    }
+
+    .logo-log p {
+        font-size: 10px;
+        margin-left: 22px;
+    }
+
+    .logo-log p:before {
+        width: 6px;
+        height: 8px;
+        left: -8px;
+        top: 5px;
+    }
+
+    .logo-log p:after {
+        width: 6px;
+        height: 8px;
+        right: 16px;
+        top: 5px;
+    }
+
+    button {
+        width: auto;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    #items {
+        padding: 0%;
+        display: none;
+    }
+
+    #btn_items {
+        display: block;
+    }
+
+    #line {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    #list {
+        display: block;
+        width: auto;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-content {
+        text-align: center;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: auto;
+    }
+
+    .character-count {
+        position: relative;
+        left: 0px;
+        color: gray;
+    }
+
+    .error1 {
+        color: #f00;
+        font-size: 12px;
+        margin-top: 5px;
+        position: relative;
+        left: 0px;
+        width: auto;
+    }
+
+    #searching {
+        display: block;
+    }
+
+    #atcelement1 {
+        width: auto;
+    }
+
+    #statusBar {
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 1151px) {
+    #btn_items {
+        display: none;
+    }
+
+    #items {
+        display: block !important;
+    }
+}
